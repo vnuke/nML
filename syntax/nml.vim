@@ -25,4 +25,4 @@ highlight default link nmlaction Tag
 highlight default link nmlsyntax PreProc
 highlight default link nmlimage Typedef
 highlight default link nmlFUanote Label
-hi def link nmlComment Comment
+highlight default link nmlComment Comment
