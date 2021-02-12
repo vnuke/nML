@@ -11,6 +11,9 @@ syntax keyword nmlimage image
 
 syntax match nmlFUanote "@\w\+"
 
+syntax match nmlComment "\v\/\/.*$"
+syntax region nmlComment start="/\*" end="\*/"
+
 highlight default link nmlREG Include
 highlight default link nmlMEM Boolean
 highlight default link nmlClike Conditional
@@ -22,3 +25,4 @@ highlight default link nmlaction Tag
 highlight default link nmlsyntax PreProc
 highlight default link nmlimage Typedef
 highlight default link nmlFUanote Label
+hi def link nmlComment Comment
